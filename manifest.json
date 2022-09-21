@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Focus",
+    "version": "1.0",
+    "description": "Keep Focused!",
+    "content_scripts": [
+        {
+          "matches": ["https://www.youtube.com/*"],
+          "js": ["./jquery.min.js", "./main.js"],
+          "css": ["index.css"]
+        }
+      ]
+    
+  }
+ 
